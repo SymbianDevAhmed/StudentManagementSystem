@@ -1,0 +1,8 @@
+/build/
+/dist/
+/nbproject/private/
+/nbproject/Makefile-*
+/nbproject/Package-*
+/nbbuild/
+/nbdist/
+/.nb-gradle/
