@@ -21,7 +21,7 @@ The application allows the user to:
 
 ## 🧩 Features
 
-### 👨‍🎓 Student Management
+### 👨‍🎓 **Student Management**
 
 The system provides functionality for managing student information.
 
@@ -33,7 +33,7 @@ The available operations are:
 - Searching for a student by ID
 - Preventing duplicate student IDs
 
-### 📚 Course Management
+### 📚 **Course Management**
 
 The system allows courses to be created and managed.
 
@@ -45,7 +45,7 @@ The available operations are:
 - Searching for a course by ID
 - Preventing duplicate course IDs
 
-### 📝 Grade Management
+### 📝 **Grade Management**
 
 The system allows grades to be recorded for students and courses.
 
@@ -58,7 +58,7 @@ The available operations are:
 - Calculating the student's average grade
 - Displaying courses and grades for each student
 
-### 🕒 Attendance Management
+### 🕒 **Attendance Management**
 
 The system provides basic attendance tracking for students.
 
@@ -69,7 +69,7 @@ The available operations are:
 - Tracking the number of recorded attendances
 - Displaying the attendance count for each student
 
-### 📊 Student Display
+### 📊 **Student Display**
 
 The system provides a summary of each student's information.
 
@@ -94,36 +94,42 @@ This project demonstrates the following Object-Oriented Programming concepts:
 - Getters and Setters
 - Method Overriding
 
-### 🔹 Encapsulation
+### 🔹 **Encapsulation**
 
 Student, course, and grade data are stored in private fields and accessed through getters and setters.
 
-### 🔹 Inheritance
+### 🔹 **Inheritance**
 
 The `Student` and `Instructor` classes extend the `Person` class.
 
 ```text
-
 Person
 ├── Student
 └── Instructor
+```
 
-🔹 Polymorphism
-The project demonstrates polymorphism by using a Person reference to work with Student and Instructor objects.
-🔹 Method Overriding
-The Student and Instructor classes override the displayInfo() method inherited from Person.
+### 🔹 **Polymorphism**
 
-🛠️ Technologies Used
-- Java
-- Object-Oriented Programming (OOP)
-- ArrayList
-- HashMap
-- Scanner
-- NetBeans
-- Git
-- GitHub
+The project demonstrates polymorphism by using a `Person` reference to work with `Student` and `Instructor` objects.
 
-📂 Project Structure
+### 🔹 **Method Overriding**
+
+The `Student` and `Instructor` classes override the `displayInfo()` method inherited from `Person`.
+
+## 🛠️ Technologies Used
+
+- ☕ Java
+- 🧱 Object-Oriented Programming (OOP)
+- 📋 ArrayList
+- 🗺️ HashMap
+- ⌨️ Scanner
+- 💻 NetBeans
+- 🔧 Git
+- 🐙 GitHub
+
+## 📂 Project Structure
+
+```text
 StudentManagementSystem/
 ├── src/
 │   └── studentmanagementsystem/
@@ -138,16 +144,21 @@ StudentManagementSystem/
 ├── manifest.mf
 ├── README.md
 └── .gitignore
+```
 
-▶️ How to Run
+## ▶️ How to Run
+
 1. Clone or download the repository.
 2. Open the project in NetBeans.
-3. Open StudentManagementSystem.java.
+3. Open `StudentManagementSystem.java`.
 4. Run the Java application.
 5. Use the interactive menu to manage students, courses, grades, and attendance.
 
-📋 Main Menu
+## 📋 Main Menu
+
+```text
 ===== Student Management System =====
+
 1. Add Student
 2. Edit Student
 3. Delete Student
@@ -158,10 +169,14 @@ StudentManagementSystem/
 8. Record Attendance
 9. Display Students
 10. Exit
+```
 
-🔐 Data Validation
+## 🔐 Data Validation
+
 The application includes basic validation to improve data consistency.
+
 The system:
+
 - Prevents duplicate student IDs
 - Prevents duplicate course IDs
 - Checks whether a student exists before editing or deleting
@@ -170,9 +185,12 @@ The system:
 - Checks whether a course exists before recording grades
 - Validates grades between 0 and 100
 
-🎯 Learning Objective
+## 🎯 Learning Objective
+
 The purpose of this project is to strengthen practical understanding of Java and Object-Oriented Programming by building a simple interactive management system.
+
 The project also provides practical experience with:
+
 - Managing collections of objects
 - Working with classes and objects
 - Applying inheritance and polymorphism
@@ -182,9 +200,12 @@ The project also provides practical experience with:
 - Implementing CRUD-style operations
 - Using Git and GitHub for version control
 
-📖 Project Summary
+## 📖 Project Summary
+
 This project combines Java fundamentals, Object-Oriented Programming, and Java Collections to create a simple console-based Student Management System.
+
 It demonstrates how multiple classes can work together to manage students, courses, grades, and attendance through a single interactive application.
 
-👨‍💻 Author
+## 👨‍💻 Author
+
 Ahmed Gaber
